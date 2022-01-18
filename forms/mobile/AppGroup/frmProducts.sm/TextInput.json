@@ -1,5 +1,7 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -31,29 +33,22 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "Button0e713c1a8437046"
-    ],
-    "clipbounds": false,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "FlexContainer0ceef094e3f534b",
+    "containerweight": 0,
+    "data": {},
+    "id": "TextInput",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f106bf8861d84de59584372fdcc71b90",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
+    "kuid": "eb87c9d484e348548b5fc79acdf8dfb4",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "frmProducts",
     "pf": "frmProducts",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1
+    "sourceUserWidget": "c82059bd8305447fb733b64d24a8a886",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
 }

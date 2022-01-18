@@ -34,7 +34,8 @@
     "canUpdateUI": true,
     "children": [
         "FlexContainer0ceef094e3f534b",
-        "Button0faa2acf96a314d"
+        "Button0faa2acf96a314d",
+        "TextInput"
     ],
     "containerweight": 100,
     "controllerInfo": {
