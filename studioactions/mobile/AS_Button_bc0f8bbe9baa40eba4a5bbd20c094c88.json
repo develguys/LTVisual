@@ -1,0 +1,30 @@
+{
+    "AS_Button_bc0f8bbe9baa40eba4a5bbd20c094c88": {
+        "id": "AS_Button_bc0f8bbe9baa40eba4a5bbd20c094c88",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProducts",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a3ecf9901d5c440cb615a8d238d2deb7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__da5873e1699a4040aff00ccd0619207a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProductDetail",
+            "formKUID": "d04e7e546a4c4c1b9dc1745e6753d44c",
+            "projectName": "LTVisual",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "AppGroup",
+            "enableNavigationObj": true,
+            "isCustomInput": false
+        }]
+    }
+}

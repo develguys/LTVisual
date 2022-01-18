@@ -1,0 +1,32 @@
+{
+    "AS_Button_e825defe6d5e4ed8a204da2812e3aa28": {
+        "id": "AS_Button_e825defe6d5e4ed8a204da2812e3aa28",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProducts",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a3ecf9901d5c440cb615a8d238d2deb7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_i00f38d4420844a084097cd1c8adee67",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": "Demo",
+            "yesLabel": "OK ",
+            "alertMessage": "Click me ",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}
