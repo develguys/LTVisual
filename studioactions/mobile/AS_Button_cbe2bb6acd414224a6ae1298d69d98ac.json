@@ -1,0 +1,29 @@
+{
+    "AS_Button_cbe2bb6acd414224a6ae1298d69d98ac": {
+        "id": "AS_Button_cbe2bb6acd414224a6ae1298d69d98ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKhoa2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a2e3f8afba214a8290edf09c0d55bb5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__h58f03d109d94e8081ff3da1d10853df",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmKhoa1",
+            "formKUID": "e619ca486df64feb80e91d3835b95d05",
+            "projectName": "LTVisual",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "AppGroup",
+            "isCustomInput": false
+        }]
+    }
+}

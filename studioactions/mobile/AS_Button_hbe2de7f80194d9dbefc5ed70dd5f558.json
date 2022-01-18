@@ -1,0 +1,45 @@
+{
+    "AS_Button_hbe2de7f80194d9dbefc5ed70dd5f558": {
+        "id": "AS_Button_hbe2de7f80194d9dbefc5ed70dd5f558",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKhoa1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e619ca486df64feb80e91d3835b95d05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__c1733931585440b1b8693e66799c95ca",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmKhoa2",
+            "formKUID": "a2e3f8afba214a8290edf09c0d55bb5f",
+            "projectName": "LTVisual",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "SHOW_ALERT_c184b80d846446c7b95236c7e1ef8319",
+            "callbackType": "True",
+            "enableMappingEditor": true,
+            "package": "AppGroup",
+            "isCustomInput": false
+        }, {
+            "id": "SHOW_ALERT_c184b80d846446c7b95236c7e1ef8319",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "yesLabel": "Yes",
+            "noLabel": "No",
+            "alertMessage": "Navigate to frmKhoa2?",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}
